@@ -1,0 +1,11 @@
+# Node = Int, String, Char, Symb, Graph, Lambda
+int: 134
+str: "Bonjour"
+chr: 'space
+sym: `sup
+hello: @|1 2 5, 2 1 10, 43 'c 15> ## immutable, weighted, directional
+hellp: mut !{1 2 5, 43 `love 46} # mutable, not
+lam: \a b -> (
+    + a b
+    ) # lambda
+printfmt("{}" lam(1 2)) # prints 3
